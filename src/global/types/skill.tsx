@@ -3,5 +3,6 @@ export type Skill = {
   type: string,
   name: string,
   effect: string,
-  cost: string,
+  cost?: string,
+  isUnique: boolean,
 };
