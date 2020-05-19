@@ -1,6 +1,6 @@
-import { Persona } from '../types/persona';
+import { Persona } from '../../types/persona';
 
-export const personae: Array<Persona> = [
+export const personaeRoyal: Array<Persona> = [
   {
     id: 1,
     name: 'Arsene',
