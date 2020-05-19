@@ -17,7 +17,6 @@ const backgroundImage: ImageStyle = {
 const mainView: ViewStyle = {
   flexDirection: 'column',
   flex: 1,
-  justifyContent: 'center',
 };
 
 export const styles = StyleSheet.create<HomeStyle>({

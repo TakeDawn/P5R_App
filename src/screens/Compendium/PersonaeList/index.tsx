@@ -1,11 +1,8 @@
 import * as React from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
+import PersonaCardList from '../../../global/components/PersonaCardList';
 import { Persona } from '../../../global/types/persona';
-import { Arcana } from '../../../global/types/arcana';
 import { personaeRoyal } from '../../../global/data/personae/personaeRoyal';
-import { arcanas } from '../../../global/data/arcanas/arcanas';
-import { Maybe } from 'monet';
-import _ from 'lodash/fp';
 
 class PersonaeList extends React.Component<{}, {}> {
   render() {
@@ -13,35 +10,12 @@ class PersonaeList extends React.Component<{}, {}> {
       <View>
         {
           personaeRoyal.map<React.ReactNode>((persona: Persona) =>
-            <View
-              key={persona.id + '-' + persona.name}
-            >
-              <Text>
-                Name: {persona.name}
-              </Text>
-
-              <Text>
-                Level: {persona.level}
-              </Text>
-
-              <Text>
-                Arcana: {this.getArcanaName(persona.arcanaId)}
-              </Text>
-            </View>
+            <PersonaCardList persona={persona} />
           )
         }
       </View>
     );
   }
-
-  getArcanaName = (arcanaId: number): string =>
-    this.getMaybeArcana(arcanaId).cata(
-      () => 'Arcana not found.',
-      (arcana: Arcana) => arcana.name
-    );
-
-    getMaybeArcana = (arcanaId: number): Maybe<Arcana> =>
-      Maybe.fromFalsy(_.find<Arcana>({id: arcanaId})(arcanas));
 }
 
 export default PersonaeList;
