@@ -1,6 +1,6 @@
-import { Skill } from '../types/skill';
+import { Skill } from '../../types/skill';
 
-export const skills: Array<Skill> = [
+export const skillsClassic: Array<Skill> = [
   {
     id: 1,
     type: 'Ailment',
@@ -291,14 +291,6 @@ export const skills: Array<Skill> = [
   },
   {
     id: 37,
-    type: 'Bless',
-    name: 'Makougaon',
-    effect: 'Deal heavy Bless damage to all foes.',
-    cost: '22 SP',
-    isUnique: false,
-  },
-  {
-    id: 38,
     type: 'Bless',
     name: 'Makougaon',
     effect: 'Deal heavy Bless damage to all foes.',
@@ -1012,7 +1004,7 @@ export const skills: Array<Skill> = [
     id: 129,
     type: 'Passive',
     name: 'Arms Master',
-    effect: 'Half HP cost for physical skills.',
+    effect: 'Half HP cost for physical skillsClassic.',
     isUnique: false,
   },
   {
@@ -1369,7 +1361,7 @@ export const skills: Array<Skill> = [
     id: 180,
     type: 'Passive',
     name: 'Hama Boost',
-    effect: 'Increase success rate of instant death by Bless skills.',
+    effect: 'Increase success rate of instant death by Bless skillsClassic.',
     isUnique: false,
   },
   {
@@ -1446,7 +1438,7 @@ export const skills: Array<Skill> = [
     id: 191,
     type: 'Passive',
     name: 'Mudo Boost',
-    effect: 'Increase success rate of instant death by Curse skills.',
+    effect: 'Increase success rate of instant death by Curse skillsClassic.',
     isUnique: false,
   },
   {
@@ -1887,7 +1879,7 @@ export const skills: Array<Skill> = [
     id: 254,
     type: 'Passive',
     name: 'Spell Master',
-    effect: 'Half SP cost for magic skills.',
+    effect: 'Half SP cost for magic skillsClassic.',
     isUnique: false,
   },
   {

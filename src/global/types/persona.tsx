@@ -33,5 +33,5 @@ type Resistance = 'drain' | 'resist' |'neutral' | 'weak';
 
 type PersonaSkill = {
   level: number,
-  skillsId: number,
+  skillId: number,
 };

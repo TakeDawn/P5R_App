@@ -11,7 +11,7 @@ export const personae: Array<Persona> = [
       magic: 2,
       endurance: 2,
       agility: 3,
-      luck: 1
+      luck: 1,
     },
     elementals: {
       physical: 'neutral',
@@ -23,16 +23,29 @@ export const personae: Array<Persona> = [
       psychic: 'neutral',
       nuclear: 'neutral'  ,
       bless: 'weak',
-      curse: 'resist'
+      curse: 'resist',
     },
     skills: [
       {
         level: 1,
-        type: 'curse',
-        name: 'Eiha',
-        effect: 'Deal weak Cursedamage to 1 foe.',
-        cost: '4 SP'
-      }
-    ]
+        skillId: 45
+      },
+      {
+        level: 2,
+        skillId: 270
+      },
+      {
+        level: 4,
+        skillId: 345
+      },
+      {
+        level: 5,
+        skillId: 277
+      },
+      {
+        level: 7,
+        skillId: 121
+      },
+    ],
   },
 ];
