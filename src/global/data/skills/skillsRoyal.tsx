@@ -1004,7 +1004,7 @@ export const skillsRoyal: Array<Skill> = [
         id: 129,
         type: 'Passive',
         name: 'Arms Master',
-        effect: 'Half HP cost for physical skillsClassic.',
+        effect: 'Half HP cost for physical skills.',
         isUnique: false,
     },
     {
@@ -1361,7 +1361,7 @@ export const skillsRoyal: Array<Skill> = [
         id: 180,
         type: 'Passive',
         name: 'Hama Boost',
-        effect: 'Increase success rate of instant death by Bless skillsClassic.',
+        effect: 'Increase success rate of instant death by Bless skills.',
         isUnique: false,
     },
     {
@@ -1438,7 +1438,7 @@ export const skillsRoyal: Array<Skill> = [
         id: 191,
         type: 'Passive',
         name: 'Mudo Boost',
-        effect: 'Increase success rate of instant death by Curse skillsClassic.',
+        effect: 'Increase success rate of instant death by Curse skills.',
         isUnique: false,
     },
     {
@@ -1879,7 +1879,7 @@ export const skillsRoyal: Array<Skill> = [
         id: 254,
         type: 'Passive',
         name: 'Spell Master',
-        effect: 'Half SP cost for magic skillsClassic.',
+        effect: 'Half SP cost for magic skills.',
         isUnique: false,
     },
     {
