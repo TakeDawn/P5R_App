@@ -28,6 +28,9 @@ build/
 .gradle
 local.properties
 *.iml
+package-lock.json
+yarn.lock
+.eslintrc.js
 
 # Visual Studio Code
 #
