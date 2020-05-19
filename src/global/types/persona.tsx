@@ -29,7 +29,7 @@ type Elementals = {
   curse: Resistance,
 };
 
-type Resistance = 'drain' | 'resist' |'neutral' | 'weak';
+type Resistance = 'drain' | 'resist' | 'neutral' | 'weak';
 
 type PersonaSkill = {
   level: number,

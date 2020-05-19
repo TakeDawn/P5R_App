@@ -1,4 +1,4 @@
-import { Arcana } from '../types/arcana';
+import { Arcana } from '../../types/arcana';
 
 export const arcanas: Array<Arcana> = [
   {

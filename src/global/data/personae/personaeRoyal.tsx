@@ -21,13 +21,13 @@ export const personaeRoyal: Array<Persona> = [
       electric: 'neutral',
       wind: 'neutral',
       psychic: 'neutral',
-      nuclear: 'neutral'  ,
+      nuclear: 'neutral',
       bless: 'weak',
       curse: 'resist',
     },
     skills: [
       {
-        level: 1,
+        level: 0,
         skillId: 45
       },
       {
