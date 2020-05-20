@@ -19,6 +19,7 @@ interface PersonaCardListStyle {
   textArcana: TextStyle,
   textStatType: TextStyle,
   textStatValue: TextStyle,
+  textElementalResistance: TextStyle,
   elementalIcon: ImageStyle,
 }
 
@@ -30,7 +31,7 @@ const cardContainer: ViewStyle = {
 };
 
 const levelNameArcanaContainer: ViewStyle = {
-  height: 35,
+  height: 40,
   flexDirection: 'row',
   backgroundColor: 'white',
 };
@@ -48,7 +49,7 @@ const nameContainer: ViewStyle = {
 };
 
 const arcanaContainer: ViewStyle = {
-  height: 35,
+  height: 40,
   backgroundColor: 'black',
   alignItems: 'center',
 };
@@ -70,7 +71,9 @@ const elementalsContainer: ViewStyle = StyleSheet.flatten([statsContainer, {
 }]);
 
 const elementalContainer: ViewStyle = StyleSheet.flatten([statContainer, {
-  alignItems: 'center'
+  alignItems: 'center',
+  paddingTop: 5,
+  paddingBottom: 5,
 }]);
 
 const textInfo: TextStyle = {
@@ -95,6 +98,11 @@ const textStatValue: TextStyle = StyleSheet.flatten([textArcana, {
   color: colors.personaRed,
 }]);
 
+const textElementalResistance: TextStyle = StyleSheet.flatten([textStatValue, {
+  fontSize: 19,
+  fontFamily: 'p5hatty',
+}]);
+
 const elementalIcon: ImageStyle = {
   width: 25,
   height: 25,
@@ -114,5 +122,6 @@ export const styles = StyleSheet.create<PersonaCardListStyle>({
   textArcana,
   textStatType,
   textStatValue,
+  textElementalResistance,
   elementalIcon,
 });

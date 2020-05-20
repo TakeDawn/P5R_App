@@ -18,7 +18,7 @@ export type Elemental = {
   resistance: Resistance,
 };
 
-type Resistance = 'Dr' | 'Str' | 'neutral' | 'Wk';
+type Resistance = 'Dr' | 'Str' | 'neutral' | 'Wk' | 'Null' | 'Rpl';
 
 type PersonaSkill = {
   level: number,

@@ -22,7 +22,7 @@ const PersonaCardList: React.FC<Props> = (props: Props) =>
       <View style={styles.levelNameArcanaContainer}>
         <View style={styles.levelContainer}>
           <Text style={styles.textInfo}>
-            Lv.{props.persona.level}
+            Lv. {props.persona.level}
           </Text>
         </View>
 
@@ -67,7 +67,7 @@ const PersonaCardList: React.FC<Props> = (props: Props) =>
             >
               { chooseElementalIcon(elemental.type) }
 
-              <Text style={styles.textStatValue}>
+              <Text style={styles.textElementalResistance}>
                 {
                   elemental.resistance === 'neutral' ? '-' : elemental.resistance
                 }

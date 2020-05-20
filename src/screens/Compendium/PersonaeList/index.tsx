@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ImageBackground } from 'react-native';
+import { ImageBackground, ScrollView } from 'react-native';
 import PersonaCardList from '../../../global/components/PersonaCardList';
 import { Persona } from '../../../global/types/persona';
 import { personaeRoyal } from '../../../global/data/personae/personaeRoyal';
@@ -13,14 +13,16 @@ class PersonaeList extends React.Component<{}, {}> {
         source={CompendiumBackground}
         style={styles.backgroundImage}
       >
-        {
-          personaeRoyal.map<React.ReactNode>((persona: Persona) =>
-            <PersonaCardList
-              key={persona.id + '-' + persona.name}
-              persona={persona}
-            />
-          )
-        }
+        <ScrollView>
+          {
+            personaeRoyal.map<React.ReactNode>((persona: Persona) =>
+              <PersonaCardList
+                key={persona.id + '-' + persona.name}
+                persona={persona}
+              />
+            )
+          }
+        </ScrollView>
       </ImageBackground>
     );
   }
