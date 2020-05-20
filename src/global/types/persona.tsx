@@ -3,33 +3,22 @@ export type Persona = {
   name: string,
   level: number,
   arcanaId: number,
-  baseStats: Stats,
-  elementals: Elementals,
+  baseStats: Array<Stat>,
+  elementals: Array<Elemental>,
   skills: Array<PersonaSkill>,
 }
 
-type Stats = {
-  strength: number,
-  magic: number,
-  endurance: number,
-  agility: number,
-  luck: number,
+export type Stat = {
+  type: string,
+  value: number,
 };
 
-type Elementals = {
-  physical: Resistance,
-  gun: Resistance,
-  Fire: Resistance,
-  ice: Resistance,
-  electric: Resistance,
-  wind: Resistance,
-  psychic: Resistance,
-  nuclear: Resistance,
-  bless: Resistance,
-  curse: Resistance,
+export type Elemental = {
+  type: string,
+  resistance: Resistance,
 };
 
-type Resistance = 'drain' | 'resist' | 'neutral' | 'weak';
+type Resistance = 'Dr' | 'Str' | 'neutral' | 'Wk';
 
 type PersonaSkill = {
   level: number,

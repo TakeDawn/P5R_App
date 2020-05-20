@@ -6,25 +6,70 @@ export const personaeRoyal: Array<Persona> = [
     name: 'Arsene',
     level: 1,
     arcanaId: 6,
-    baseStats: {
-      strength: 2,
-      magic: 2,
-      endurance: 2,
-      agility: 3,
-      luck: 1,
-    },
-    elementals: {
-      physical: 'neutral',
-      gun: 'neutral',
-      Fire: 'neutral',
-      ice: 'weak',
-      electric: 'neutral',
-      wind: 'neutral',
-      psychic: 'neutral',
-      nuclear: 'neutral',
-      bless: 'weak',
-      curse: 'resist',
-    },
+    baseStats: [
+      {
+        type: 'St',
+        value: 2
+      },
+      {
+        type: 'Ma',
+        value: 2
+      },
+      {
+        type: 'En',
+        value: 2
+      },
+      {
+        type: 'Ag',
+        value: 3
+      },
+      {
+        type: 'Lu',
+        value: 1
+      },
+    ],
+    elementals: [
+      {
+        type: 'Physical',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Gun',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Fire',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Ice',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Electric',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Wind',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Psychic',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Nuclear',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Bless',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Curse',
+        resistance: 'Str',
+      },
+    ],
     skills: [
       {
         level: 0,
