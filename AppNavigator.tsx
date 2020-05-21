@@ -11,7 +11,7 @@ const AppNavigator = () => (
   <NavigationContainer>
     <MainStack.Navigator
       initialRouteName="Home"
-      screenOptions={{headerShown: false}}
+      screenOptions={{ headerShown: false }}
     >
       <MainStack.Screen name="Home" component={Home}/>
       <MainStack.Screen name="PersonaeList" component={PersonaeList}/>

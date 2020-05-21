@@ -1,3 +1,7 @@
+export type FlatListPersona = {
+  item: Persona
+};
+
 export type Persona = {
   id: number,
   name: string,
@@ -6,6 +10,7 @@ export type Persona = {
   baseStats: Array<Stat>,
   elementals: Array<Elemental>,
   skills: Array<PersonaSkill>,
+  isDLC?: boolean,
 }
 
 export type Stat = {

@@ -85,4 +85,8 @@ export const arcanas: Array<Arcana> = [
     id: 21,
     name: 'Tower'
   },
+  {
+    id: 22,
+    name: 'Councillor'
+  },
 ];

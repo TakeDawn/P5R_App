@@ -2,7 +2,8 @@ import * as React from 'react';
 import {
   View,
   Text,
-  TouchableOpacity, Image,
+  TouchableOpacity,
+  Image,
 } from 'react-native';
 import { Elemental, Persona } from '../../types/persona';
 import { Arcana } from '../../types/arcana';

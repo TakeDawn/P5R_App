@@ -1789,4 +1789,1670 @@ export const personaeRoyal: Array<Persona> = [
       },
     ],
   },
+  {
+    id: 20,
+    name: 'Regent',
+    level: 10,
+    arcanaId: 4,
+    baseStats: [
+      {
+        type: 'St',
+        value: 10,
+      },
+      {
+        type: 'Ma',
+        value: 10,
+      },
+      {
+        type: 'En',
+        value: 10,
+      },
+      {
+        type: 'Ag',
+        value: 10,
+      },
+      {
+        type: 'Lu',
+        value: 10,
+      },
+    ],
+    elementals: [
+      {
+        type: 'Physical',
+        resistance: 'Str',
+      },
+      {
+        type: 'Gun',
+        resistance: 'Str',
+      },
+      {
+        type: 'Fire',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Ice',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Electric',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Wind',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Psychic',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Nuclear',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Bless',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Curse',
+        resistance: 'neutral',
+      },
+    ],
+    skills: [
+      {
+        level: 0,
+        skillId: 69,
+      },
+      {
+        level: 0,
+        skillId: 101,
+      },
+      {
+        level: 0,
+        skillId: 357,
+      },
+      {
+        level: 0,
+        skillId: 57,
+      },
+      {
+        level: 0,
+        skillId: 308,
+      },
+      {
+        level: 0,
+        skillId: 109,
+      },
+      {
+        level: 0,
+        skillId: 39,
+      },
+      {
+        level: 0,
+        skillId: 49,
+      },
+    ],
+  },
+  {
+    id: 21,
+    name: 'Slime',
+    level: 10,
+    arcanaId: 1,
+    baseStats: [
+      {
+        type: 'St',
+        value: 9,
+      },
+      {
+        type: 'Ma',
+        value: 6,
+      },
+      {
+        type: 'En',
+        value: 11,
+      },
+      {
+        type: 'Ag',
+        value: 6,
+      },
+      {
+        type: 'Lu',
+        value: 5,
+      },
+    ],
+    elementals: [
+      {
+        type: 'Physical',
+        resistance: 'Str',
+      },
+      {
+        type: 'Gun',
+        resistance: 'Str',
+      },
+      {
+        type: 'Fire',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Ice',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Electric',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Wind',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Psychic',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Nuclear',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Bless',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Curse',
+        resistance: 'neutral',
+      },
+    ],
+    skills: [
+      {
+        level: 0,
+        skillId: 287,
+      },
+      {
+        level: 0,
+        skillId: 6,
+      },
+      {
+        level: 11,
+        skillId: 347,
+      },
+      {
+        level: 13,
+        skillId: 322,
+      },
+      {
+        level: 14,
+        skillId: 283,
+      },
+    ],
+  },
+  {
+    id: 22,
+    name: 'Apsaras',
+    level: 11,
+    arcanaId: 16,
+    baseStats: [
+      {
+        type: 'St',
+        value: 7,
+      },
+      {
+        type: 'Ma',
+        value: 11,
+      },
+      {
+        type: 'En',
+        value: 6,
+      },
+      {
+        type: 'Ag',
+        value: 10,
+      },
+      {
+        type: 'Lu',
+        value: 6,
+      },
+    ],
+    elementals: [
+      {
+        type: 'Physical',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Gun',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Fire',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Ice',
+        resistance: 'Str',
+      },
+      {
+        type: 'Electric',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Wind',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Psychic',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Nuclear',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Bless',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Curse',
+        resistance: 'neutral',
+      },
+    ],
+    skills: [
+      {
+        level: 0,
+        skillId: 342,
+      },
+      {
+        level: 0,
+        skillId: 325,
+      },
+      {
+        level: 0,
+        skillId: 96,
+      },
+      {
+        level: 13,
+        skillId: 88,
+      },
+      {
+        level: 14,
+        skillId: 320,
+      },
+      {
+        level: 16,
+        skillId: 353,
+      },
+    ],
+  },
+  {
+    id: 23,
+    name: 'Jack Frost',
+    level: 11,
+    arcanaId: 14,
+    baseStats: [
+      {
+        type: 'St',
+        value: 8,
+      },
+      {
+        type: 'Ma',
+        value: 9,
+      },
+      {
+        type: 'En',
+        value: 7,
+      },
+      {
+        type: 'Ag',
+        value: 9,
+      },
+      {
+        type: 'Lu',
+        value: 7,
+      },
+    ],
+    elementals: [
+      {
+        type: 'Physical',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Gun',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Fire',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Ice',
+        resistance: 'Null',
+      },
+      {
+        type: 'Electric',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Wind',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Psychic',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Nuclear',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Bless',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Curse',
+        resistance: 'neutral',
+      },
+    ],
+    skills: [
+      {
+        level: 0,
+        skillId: 96,
+      },
+      {
+        level: 0,
+        skillId: 324,
+      },
+      {
+        level: 0,
+        skillId: 79,
+      },
+      {
+        level: 12,
+        skillId: 101,
+      },
+      {
+        level: 13,
+        skillId: 341,
+      },
+      {
+        level: 15,
+        skillId: 175,
+      },
+    ],
+  },
+  {
+    id: 24,
+    name: 'Kodama',
+    level: 11,
+    arcanaId: 17,
+    baseStats: [
+      {
+        type: 'St',
+        value: 7,
+      },
+      {
+        type: 'Ma',
+        value: 11,
+      },
+      {
+        type: 'En',
+        value: 8,
+      },
+      {
+        type: 'Ag',
+        value: 10,
+      },
+      {
+        type: 'Lu',
+        value: 4,
+      },
+    ],
+    elementals: [
+      {
+        type: 'Physical',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Gun',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Fire',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Ice',
+        resistance: 'Str',
+      },
+      {
+        type: 'Electric',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Wind',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Psychic',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Nuclear',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Bless',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Curse',
+        resistance: 'neutral',
+      },
+    ],
+    skills: [
+      {
+        level: 0,
+        skillId: 354,
+      },
+      {
+        level: 0,
+        skillId: 341,
+      },
+      {
+        level: 12,
+        skillId: 311,
+      },
+      {
+        level: 13,
+        skillId: 6,
+      },
+      {
+        level: 14,
+        skillId: 170,
+      },
+      {
+        level: 15,
+        skillId: 346,
+      },
+      {
+        level: 17,
+        skillId: 237,
+      },
+    ],
+  },
+  {
+    id: 25,
+    name: 'Koppa Tengu',
+    level: 11,
+    arcanaId: 20,
+    baseStats: [
+      {
+        type: 'St',
+        value: 7,
+      },
+      {
+        type: 'Ma',
+        value: 8,
+      },
+      {
+        type: 'En',
+        value: 8,
+      },
+      {
+        type: 'Ag',
+        value: 11,
+      },
+      {
+        type: 'Lu',
+        value: 6,
+      },
+    ],
+    elementals: [
+      {
+        type: 'Physical',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Gun',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Fire',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Ice',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Electric',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Wind',
+        resistance: 'Str',
+      },
+      {
+        type: 'Psychic',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Nuclear',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Bless',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Curse',
+        resistance: 'neutral',
+      },
+    ],
+    skills: [
+      {
+        level: 0,
+        skillId: 354,
+      },
+      {
+        level: 0,
+        skillId: 344,
+      },
+      {
+        level: 12,
+        skillId: 176,
+      },
+      {
+        level: 13,
+        skillId: 13,
+      },
+      {
+        level: 13,
+        skillId: 215,
+      },
+      {
+        level: 15,
+        skillId: 15,
+      },
+    ],
+  },
+  {
+    id: 26,
+    name: 'Orpheus F',
+    level: 11,
+    arcanaId: 6,
+    baseStats: [
+      {
+        type: 'St',
+        value: 8,
+      },
+      {
+        type: 'Ma',
+        value: 9,
+      },
+      {
+        type: 'En',
+        value: 8,
+      },
+      {
+        type: 'Ag',
+        value: 9,
+      },
+      {
+        type: 'Lu',
+        value: 6,
+      },
+    ],
+    elementals: [
+      {
+        type: 'Physical',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Gun',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Fire',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Ice',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Electric',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Wind',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Psychic',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Nuclear',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Bless',
+        resistance: 'Str',
+      },
+      {
+        type: 'Curse',
+        resistance: 'Wk',
+      },
+    ],
+    skills: [
+      {
+        level: 0,
+        skillId: 366,
+      },
+      {
+        level: 0,
+        skillId: 64,
+      },
+      {
+        level: 0,
+        skillId: 347,
+      },
+      {
+        level: 0,
+        skillId: 158,
+      },
+      {
+        level: 12,
+        skillId: 71,
+      },
+      {
+        level: 14,
+        skillId: 328,
+      },
+      {
+        level: 15,
+        skillId: 148,
+      },
+    ],
+    isDLC: true,
+  },
+  {
+    id: 27,
+    name: 'Kusi Mitama',
+    level: 12,
+    arcanaId: 22,
+    baseStats: [
+      {
+        type: 'St',
+        value: 7,
+      },
+      {
+        type: 'Ma',
+        value: 11,
+      },
+      {
+        type: 'En',
+        value: 9,
+      },
+      {
+        type: 'Ag',
+        value: 8,
+      },
+      {
+        type: 'Lu',
+        value: 8,
+      },
+    ],
+    elementals: [
+      {
+        type: 'Physical',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Gun',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Fire',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Ice',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Electric',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Wind',
+        resistance: 'Str',
+      },
+      {
+        type: 'Psychic',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Nuclear',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Bless',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Curse',
+        resistance: 'neutral',
+      },
+    ],
+    skills: [
+      {
+        level: 0,
+        skillId: 81,
+      },
+      {
+        level: 0,
+        skillId: 88,
+      },
+      {
+        level: 0,
+        skillId: 9,
+      },
+      {
+        level: 13,
+        skillId: 217,
+      },
+      {
+        level: 14,
+        skillId: 353,
+      },
+      {
+        level: 16,
+        skillId: 174,
+      },
+    ],
+  },
+  {
+    id: 28,
+    name: 'Onmoraki',
+    level: 12,
+    arcanaId: 15,
+    baseStats: [
+      {
+        type: 'St',
+        value: 9,
+      },
+      {
+        type: 'Ma',
+        value: 12,
+      },
+      {
+        type: 'En',
+        value: 7,
+      },
+      {
+        type: 'Ag',
+        value: 10,
+      },
+      {
+        type: 'Lu',
+        value: 5,
+      },
+    ],
+    elementals: [
+      {
+        type: 'Physical',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Gun',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Fire',
+        resistance: 'Str',
+      },
+      {
+        type: 'Ice',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Electric',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Wind',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Psychic',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Nuclear',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Bless',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Curse',
+        resistance: 'Null',
+      },
+    ],
+    skills: [
+      {
+        level: 0,
+        skillId: 45,
+      },
+      {
+        level: 0,
+        skillId: 325,
+      },
+      {
+        level: 13,
+        skillId: 64,
+      },
+      {
+        level: 14,
+        skillId: 6,
+      },
+      {
+        level: 15,
+        skillId: 12,
+      },
+      {
+        level: 17,
+        skillId: 211,
+      },
+    ],
+  },
+  {
+    id: 29,
+    name: 'Ame-no-Uzume',
+    level: 13,
+    arcanaId: 13,
+    baseStats: [
+      {
+        type: 'St',
+        value: 7,
+      },
+      {
+        type: 'Ma',
+        value: 10,
+      },
+      {
+        type: 'En',
+        value: 9,
+      },
+      {
+        type: 'Ag',
+        value: 11,
+      },
+      {
+        type: 'Lu',
+        value: 9,
+      },
+    ],
+    elementals: [
+      {
+        type: 'Physical',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Gun',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Fire',
+        resistance: 'Dr',
+      },
+      {
+        type: 'Ice',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Electric',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Wind',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Psychic',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Nuclear',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Bless',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Curse',
+        resistance: 'Null',
+      },
+    ],
+    skills: [
+      {
+        level: 0,
+        skillId: 57,
+      },
+      {
+        level: 0,
+        skillId: 357,
+      },
+      {
+        level: 0,
+        skillId: 88,
+      },
+      {
+        level: 15,
+        skillId: 2,
+      },
+      {
+        level: 16,
+        skillId: 79,
+      },
+      {
+        level: 18,
+        skillId: 145,
+      },
+    ],
+  },
+  {
+    id: 30,
+    name: 'Ippon-Datara',
+    level: 13,
+    arcanaId: 9,
+    baseStats: [
+      {
+        type: 'St',
+        value: 11,
+      },
+      {
+        type: 'Ma',
+        value: 7,
+      },
+      {
+        type: 'En',
+        value: 14,
+      },
+      {
+        type: 'Ag',
+        value: 6,
+      },
+      {
+        type: 'Lu',
+        value: 8,
+      },
+    ],
+    elementals: [
+      {
+        type: 'Physical',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Gun',
+        resistance: 'Str',
+      },
+      {
+        type: 'Fire',
+        resistance: 'Str',
+      },
+      {
+        type: 'Ice',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Electric',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Wind',
+        resistance: 'Rpl',
+      },
+      {
+        type: 'Psychic',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Nuclear',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Bless',
+        resistance: 'Str',
+      },
+      {
+        type: 'Curse',
+        resistance: 'Str',
+      },
+    ],
+    skills: [
+      {
+        level: 0,
+        skillId: 299,
+      },
+      {
+        level: 0,
+        skillId: 346,
+      },
+      {
+        level: 0,
+        skillId: 235,
+      },
+      {
+        level: 15,
+        skillId: 295,
+      },
+      {
+        level: 16,
+        skillId: 248,
+      },
+      {
+        level: 18,
+        skillId: 139,
+      },
+    ],
+  },
+  {
+    id: 31,
+    name: 'Orpheus F Picaro',
+    level: 13,
+    arcanaId: 6,
+    baseStats: [
+      {
+        type: 'St',
+        value: 9,
+      },
+      {
+        type: 'Ma',
+        value: 11,
+      },
+      {
+        type: 'En',
+        value: 9,
+      },
+      {
+        type: 'Ag',
+        value: 10,
+      },
+      {
+        type: 'Lu',
+        value: 7,
+      },
+    ],
+    elementals: [
+      {
+        type: 'Physical',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Gun',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Fire',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Ice',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Electric',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Wind',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Psychic',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Nuclear',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Bless',
+        resistance: 'Str',
+      },
+      {
+        type: 'Curse',
+        resistance: 'Wk',
+      },
+    ],
+    skills: [
+      {
+        level: 0,
+        skillId: 366,
+      },
+      {
+        level: 0,
+        skillId: 69,
+      },
+      {
+        level: 0,
+        skillId: 341,
+      },
+      {
+        level: 0,
+        skillId: 158,
+      },
+      {
+        level: 14,
+        skillId: 66,
+      },
+      {
+        level: 16,
+        skillId: 328,
+      },
+      {
+        level: 17,
+        skillId: 148,
+      },
+    ],
+    isDLC: true,
+  },
+  {
+    id: 32,
+    name: 'Archangel',
+    level: 14,
+    arcanaId: 12,
+    baseStats: [
+      {
+        type: 'St',
+        value: 11,
+      },
+      {
+        type: 'Ma',
+        value: 9,
+      },
+      {
+        type: 'En',
+        value: 10,
+      },
+      {
+        type: 'Ag',
+        value: 12,
+      },
+      {
+        type: 'Lu',
+        value: 7,
+      },
+    ],
+    elementals: [
+      {
+        type: 'Physical',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Gun',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Fire',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Ice',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Electric',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Wind',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Psychic',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Nuclear',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Bless',
+        resistance: 'Null',
+      },
+      {
+        type: 'Curse',
+        resistance: 'Wk',
+      },
+    ],
+    skills: [
+      {
+        level: 0,
+        skillId: 279,
+      },
+      {
+        level: 0,
+        skillId: 4,
+      },
+      {
+        level: 0,
+        skillId: 29,
+      },
+      {
+        level: 16,
+        skillId: 342,
+      },
+      {
+        level: 17,
+        skillId: 377,
+      },
+      {
+        level: 19,
+        skillId: 305,
+      },
+    ],
+  },
+  {
+    id: 33,
+    name: 'Inugami',
+    level: 14,
+    arcanaId: 8,
+    baseStats: [
+      {
+        type: 'St',
+        value: 11,
+      },
+      {
+        type: 'Ma',
+        value: 9,
+      },
+      {
+        type: 'En',
+        value: 9,
+      },
+      {
+        type: 'Ag',
+        value: 12,
+      },
+      {
+        type: 'Lu',
+        value: 8,
+      },
+    ],
+    elementals: [
+      {
+        type: 'Physical',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Gun',
+        resistance: 'Null',
+      },
+      {
+        type: 'Fire',
+        resistance: 'Null',
+      },
+      {
+        type: 'Ice',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Electric',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Wind',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Psychic',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Nuclear',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Bless',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Curse',
+        resistance: 'Null',
+      },
+    ],
+    skills: [
+      {
+        level: 0,
+        skillId: 12,
+      },
+      {
+        level: 0,
+        skillId: 346,
+      },
+      {
+        level: 0,
+        skillId: 279,
+      },
+      {
+        level: 15,
+        skillId: 277,
+      },
+      {
+        level: 17,
+        skillId: 286,
+      },
+      {
+        level: 18,
+        skillId: 268,
+      },
+      {
+        level: 19,
+        skillId: 211,
+      },
+    ],
+  },
+  {
+    id: 34,
+    name: 'Makami',
+    level: 15,
+    arcanaId: 20,
+    baseStats: [
+      {
+        type: 'St',
+        value: 13,
+      },
+      {
+        type: 'Ma',
+        value: 12,
+      },
+      {
+        type: 'En',
+        value: 8,
+      },
+      {
+        type: 'Ag',
+        value: 11,
+      },
+      {
+        type: 'Lu',
+        value: 8,
+      },
+    ],
+    elementals: [
+      {
+        type: 'Physical',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Gun',
+        resistance: 'Null',
+      },
+      {
+        type: 'Fire',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Ice',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Electric',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Wind',
+        resistance: 'Str',
+      },
+      {
+        type: 'Psychic',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Nuclear',
+        resistance: 'Str',
+      },
+      {
+        type: 'Bless',
+        resistance: 'Null',
+      },
+      {
+        type: 'Curse',
+        resistance: 'neutral',
+      },
+    ],
+    skills: [
+      {
+        level: 0,
+        skillId: 276,
+      },
+      {
+        level: 0,
+        skillId: 106,
+      },
+      {
+        level: 0,
+        skillId: 84,
+      },
+      {
+        level: 17,
+        skillId: 109,
+      },
+      {
+        level: 18,
+        skillId: 9,
+      },
+      {
+        level: 19,
+        skillId: 234,
+      },
+      {
+        level: 20,
+        skillId: 149,
+      },
+    ],
+  },
+  {
+    id: 35,
+    name: "Queen's Necklace",
+    level: 15,
+    arcanaId: 5,
+    baseStats: [
+      {
+        type: 'St',
+        value: 15,
+      },
+      {
+        type: 'Ma',
+        value: 15,
+      },
+      {
+        type: 'En',
+        value: 15,
+      },
+      {
+        type: 'Ag',
+        value: 15,
+      },
+      {
+        type: 'Lu',
+        value: 15,
+      },
+    ],
+    elementals: [
+      {
+        type: 'Physical',
+        resistance: 'Str',
+      },
+      {
+        type: 'Gun',
+        resistance: 'Str',
+      },
+      {
+        type: 'Fire',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Ice',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Electric',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Wind',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Psychic',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Nuclear',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Bless',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Curse',
+        resistance: 'neutral',
+      },
+    ],
+    skills: [
+      {
+        level: 0,
+        skillId: 346,
+      },
+      {
+        level: 0,
+        skillId: 340,
+      },
+      {
+        level: 0,
+        skillId: 344,
+      },
+      {
+        level: 0,
+        skillId: 93,
+      },
+      {
+        level: 0,
+        skillId: 88,
+      },
+      {
+        level: 0,
+        skillId: 347,
+      },
+      {
+        level: 0,
+        skillId: 341,
+      },
+      {
+        level: 0,
+        skillId: 345,
+      },
+    ],
+  },
+  {
+    id: 36,
+    name: 'Shiisaa',
+    level: 15,
+    arcanaId: 18,
+    baseStats: [
+      {
+        type: 'St',
+        value: 10,
+      },
+      {
+        type: 'Ma',
+        value: 11,
+      },
+      {
+        type: 'En',
+        value: 11,
+      },
+      {
+        type: 'Ag',
+        value: 11,
+      },
+      {
+        type: 'Lu',
+        value: 9,
+      },
+    ],
+    elementals: [
+      {
+        type: 'Physical',
+        resistance: 'Str',
+      },
+      {
+        type: 'Gun',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Fire',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Ice',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Electric',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Wind',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Psychic',
+        resistance: 'Wk',
+      },
+      {
+        type: 'Nuclear',
+        resistance: 'neutral',
+      },
+      {
+        type: 'Bless',
+        resistance: 'Null',
+      },
+      {
+        type: 'Curse',
+        resistance: 'Wk',
+      },
+    ],
+    skills: [
+      {
+        level: 0,
+        skillId: 276,
+      },
+      {
+        level: 0,
+        skillId: 298,
+      },
+      {
+        level: 0,
+        skillId: 106,
+      },
+      {
+        level: 16,
+        skillId: 148,
+      },
+      {
+        level: 17,
+        skillId: 295,
+      },
+      {
+        level: 19,
+        skillId: 149,
+      },
+    ],
+  },
 ];

@@ -1,7 +1,8 @@
 import {
   StyleSheet,
   ViewStyle,
-  TextStyle, ImageStyle,
+  TextStyle,
+  ImageStyle,
 } from 'react-native';
 import { colors } from '../../variables/colors';
 
